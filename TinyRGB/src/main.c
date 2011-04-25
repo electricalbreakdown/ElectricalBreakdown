@@ -1,21 +1,3 @@
-/**************************************************************
- *                   RGB-LED
- *               ================
- *               Uwe Berger; 2009
- * 
- * Ausgangsbasis ist einer dieser RGB-LEDs mit 6 Anschluessen. 
- * In der, die ich verbaut habe, sind eine rote, eine gruene
- * sowie zwei blaue LEDs (nur eine angeschlossen) in einem LED-
- * Gehaeuse enthalten. Wie die LEDs (mit Vorwiderstand) an die 
- * Pins des ATtiny verschaltet sind, ist dem Quelltext zu ent-
- * nehmen.
- * 
- * Folgendes Programm ist eigentlich vollkommen sinnfrei. Jede 
- * Farbe wird einmal einzeln und dann in Kombinationen "auf-/ab-
- * gedimmt" (mittels Software-PWM) und verlaeuft in einer End-
- * losschleife.
- * 
- */
 #ifndef F_CPU
 #define F_CPU 1000000UL     				
 #endif
